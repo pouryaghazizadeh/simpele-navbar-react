@@ -9,9 +9,9 @@ const Navbar = () => {
                 Home
             </Navelink>
             <Bars/>
-            <NavMenue>
+            <NavMenu>
 
-            </NavMenue>
+            </NavMenu>
             <Navlink to ="/About" activeStyle>
                 About
             </Navlink>

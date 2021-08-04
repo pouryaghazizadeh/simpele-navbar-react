@@ -1,0 +1,128 @@
+#hidden {
+  position: absolute;
+  top: 88px;
+  left: 0px;
+  height: 200px;
+  width: 100vw;
+  background-color: #002;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-size: 25px;
+}
+.logo {
+  color: #fff;
+  display: flex;
+  align-self: flex-start;
+  margin: 14px;
+}
+
+#hidden2 {
+  height: 500px;
+}
+
+.Nav {
+  background: #000;
+  height: 88px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem calc((100vw - 1000px) / 2);
+  z-index: 10;
+}
+.NsvLink {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+  font-size: 15px;
+}
+.NsvLink :active {
+  color: #15cdfc;
+}
+.Bars {
+  display: none;
+  color: #fff;
+}
+.Navmenu {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+.NavBtn {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.NavBtnLink {
+  border-radius: 4px;
+  background: #256ce1;
+  padding: 10px 22px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  display: block;
+}
+.NavBtnLink:hover {
+  background: #fff;
+  color: #010606;
+}
+@media screen and (max-width: 768px) {
+  .Bars {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-100%, 75%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .Navmenu {
+    display: none;
+  }
+  .NavBtn {
+    display: none;
+  }
+  .NavBtnLink {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  #hidden {
+    background-color: #002;
+    top: 0px;
+    height: 100%;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 24px;
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    cursor: pointer;
+
+    align-self: flex-end;
+  
+    font-size: 15px;
+  }
+  #hidden2 {
+    height: 88px;
+  }
+  #Nav2 {
+    padding: 0.5rem calc((100vw - 1000px) / 2);
+    display: flex;
+    align-self: flex-end;
+  }
+  #logo2 {
+    margin-right: 25vw;
+  }
+}

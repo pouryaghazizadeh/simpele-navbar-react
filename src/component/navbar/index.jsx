@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div>
       <Nav>
-        <NavLink to="/">Home</NavLink>
+        <NavLink to="/" id="f">
+          Home
+        </NavLink>
         <Bars />
         <Navmenu>
           <NavLink to="/About" activeStyle>

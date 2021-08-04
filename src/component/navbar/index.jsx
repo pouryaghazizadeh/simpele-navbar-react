@@ -18,21 +18,21 @@ const Navbar = () => {
 
   const [Id, setId] = useState(false);
   return (
-    <div  >
-     
-     
-      <nav className="Nav"  id={Id ? "hidden2" : " "}>
-      <h1 className= "logo">TvMaze</h1>
+    <div id={Id ? "#hidden2" : ""}>
+      <nav className="Nav" id={Id ? "Nav2" : ""}>
+        <h1 className="logo" id={Id ? "logo2" : ""}>
+          TvMaze
+        </h1>
         <FaBars
           className="Bars"
-          onClick={() =>{
+          onClick={() => {
             setId(!Id);
           }}
         />
-        <div className="Navmenu"id={Id ? "hidden" : " "}>
-        <Link className="NsvLink"  id = {Id?"nav":""}to="/">
-          Home
-        </Link>
+        <div className="Navmenu" id={Id ? "hidden" : " "}>
+          <Link className="NsvLink" id={Id ? "nav" : ""} to="/">
+            Home
+          </Link>
           <Link className="NsvLink" to="/About" activeStyle>
             About
           </Link>

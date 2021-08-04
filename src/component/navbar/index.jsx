@@ -19,6 +19,7 @@ const Navbar = () => {
   const [Id, setId] = useState(false);
   return (
     <div id={Id ? "#hidden2" : ""}>
+    
       <nav className="Nav" id={Id ? "Nav2" : ""}>
         <h1 className="logo" id={Id ? "logo2" : ""}>
           TvMaze

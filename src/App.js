@@ -4,10 +4,12 @@ import Navbar from "./component/navbar/index";
 import About from "./component/About";
 
 function App() {
+
   return (
     <>
       <router>
         <Navbar />
+       
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/About"  component={About} />

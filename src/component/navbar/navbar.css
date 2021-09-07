@@ -12,14 +12,14 @@
   font-size: 25px;
 }
 .logo {
-  color: #fff;
+color: #fff;  
   display: flex;
   align-self: flex-start;
   margin: 14px;
 }
 
 #hidden2 {
-  height:400px
+  height: 400px;
 }
 
 .Nav {
@@ -30,8 +30,8 @@
   padding: 0.5rem calc((100vw - 1000px) / 2);
   z-index: 10;
 }
-#Nav2{
-    height: 287px;
+#Nav2 {
+  height: 287px;
 }
 .NsvLink {
   color: #fff;
@@ -75,7 +75,7 @@
 }
 .NavBtnLink:hover {
   background: #fff;
-   color: #010606;
+  color: #010606;
 }
 @media screen and (max-width: 768px) {
   .Bars {
@@ -99,8 +99,8 @@
 }
 @media screen and (min-width: 768px) {
   #hidden {
-    /* background-color: #000; */
-    background-color:#000;
+ 
+    background-color: #000;
     top: 0px;
     height: 100%;
     width: 100vw;
@@ -113,9 +113,7 @@
     text-decoration: none;
     padding: 0 1rem;
     cursor: pointer;
-
     align-self: flex-end;
-  
     font-size: 15px;
   }
   #hidden2 {
@@ -125,8 +123,7 @@
     padding: 0.5rem calc((100vw - 1000px) / 2);
     display: flex;
     align-self: flex-end;
-    height:88px;
-    
+    height: 88px;
   }
   #logo2 {
     margin-right: 25vw;

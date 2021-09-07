@@ -19,19 +19,19 @@ const Navbar = () => {
   const [Id, setId] = useState(false);
   return (
     <div id={Id ? "#hidden2" : ""}>
-    
       <nav className="Nav" id={Id ? "Nav2" : ""}>
         <h1 className="logo" id={Id ? "logo2" : ""}>
           TvMaze
         </h1>
         <FaBars
-          className="Bars"
-          onClick={() => {
-            setId(!Id);
-          }}
-        />
+            className="Bars"
+            onClick={() => {
+              setId(!Id);
+            }}
+          />
         <div className="Navmenu" id={Id ? "hidden" : " "}>
-          <Link className="NsvLink" id={Id ? "nav" : ""} to="/">
+          
+          <Link className="NsvLink"  to="/">
             Home
           </Link>
           <Link className="NsvLink" to="/About" activeStyle>

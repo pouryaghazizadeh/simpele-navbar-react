@@ -24,13 +24,14 @@ const Navbar = () => {
           TvMaze
         </h1>
         <FaBars
-          className="Bars"
-          onClick={() => {
-            setId(!Id);
-          }}
-        />
+            className="Bars"
+            onClick={() => {
+              setId(!Id);
+            }}
+          />
         <div className="Navmenu" id={Id ? "hidden" : " "}>
-          <Link className="NsvLink" id={Id ? "nav" : ""} to="/">
+          
+          <Link className="NsvLink"  to="/">
             Home
           </Link>
           <Link className="NsvLink" to="/About" activeStyle>
